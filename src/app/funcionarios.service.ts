@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class FuncionariosService {
-  url = 'https://localhost:7293/api/Funcionarios';
+  url = 'https://localhost:7141/api/Funcionarios';
 
   constructor(private httpClient: HttpClient) {}
 
